@@ -1,0 +1,159 @@
+
+	
+ 	how to use 
+
+	chili
+
+
+	*  *  *
+
+i   - set up
+
+ii  - run
+
+iii - use
+
+iv  - save
+
+	*  *  *
+
+
+note: chili is "as is," no warranty -- see license.txt
+
+
+	*  *  *
+
+requires: serialosc 1.2a (nov 12), chuck 1.2.1.3 (nov 09) or newer
+
+i - set up 
+	
+	install chuck
+		
+		http://chuck.cs.princeton.edu/release/
+
+		select "miniaudicle" for graphical interface
+		select "executable" to run chuck from the command line
+
+ii - run	
+
+	two options:
+
+	A - using command line
+
+		change directory to the folder that has chili.ck
+
+		start:
+			chuck chili.ck
+
+			a light will go across the bottom of the monome
+
+		stop:
+			press q two times
+				OR
+			ctrl-c-c
+
+	B - using miniaudicle
+
+		open chili.ck
+
+		start:
+			start virtual machine
+			click big green plus button to "add shred"
+			
+			a light will go across the bottom of the monome
+
+		stop:
+			click the big red minus button to "remove shred" 
+				OR 
+			press q two times with the console monitor selected
+
+		if you have trouble
+			be sure to click "remove shred"
+			before you try to add a shred again
+
+iii - use
+
+	press buttons to make a picture, pretty much anywhere except
+	
+	the bottom row
+
+		controls
+			
+		on a monome 64, the bottom row is:
+
+			[play/stop][loop][speed-][speed+][prev][next][add blank][add copy]
+
+
+		on a 128 or 256, it's
+				
+			[play/stop][loop][speed-][speed+][][][][][][][][][prev][next][add][add copy]
+			      
+
+		in more detail, from left to right:
+
+			play / stop
+			loop on/off
+			speed down 
+			speed up
+
+			move to previous frame
+			move to next frame
+			add a blank frame after the current frame
+			add a frame that copies the current frame
+		
+		hold these pairs of buttons down at the same time to do these special things:
+
+			play & loop - save animation
+			speed down & speed up - go to the first frame
+			add blank & add copy - delete current frame	
+
+			(on a monome 64):
+			[save][save][go to start][go to start][][][delete frame][delete frame]
+
+		you can show these control maps any time by pressing help
+
+		help?
+
+	keyboard commands:
+		
+		press h for help
+		press b for brightness
+		press q to quit
+	
+	you're ready!
+
+		make a picture by pressing buttons
+		add a frame
+		make another picture
+		press play
+		there it goes
+
+iv - saving & loading:
+
+	animations can be saved as text files, to be opened again
+
+	to save:
+		hold down the two leftmost buttons
+		WARNING this will overwrite the last animation you saved, unless you
+			-renamed that file
+			-changed the settings (see below)
+
+	to load:
+		happens automatically when chili starts, according to settings in chili.ck
+
+	to change settings:
+		open chili.ck in miniaudicle or a text editor, 
+		and scroll to settings
+		then you can change
+			file to load from
+			file to save to
+		then save chili.ck
+
+	treasure the simple elegance of your works, and don't be afraid to revisit them
+
+questions?
+	
+	look for chili on monome.org/community
+	or find my email at dinosaur.freeshell.org
+	
+	-scott
