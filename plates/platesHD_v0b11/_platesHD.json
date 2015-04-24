@@ -1,0 +1,59 @@
+{
+	"pattrstorage" : 	{
+		"name" : "_platesHD",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"refresh_rate" : [ 0 ],
+					"osc_port" : [ 0 ],
+					"platewheelhd1::range_max" : [ 1.0 ],
+					"platewheelhd1::break_points" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.061475, 0.258197, 0, 0.262295, 0.54918, 0, 0.557377, 0.811475, 0, 0.803279, 0.934426, 0, 1.0, 1.0, 0 ],
+					"platewheelhd1::range_min" : [ 0.0 ],
+					"platewheelhd1::osc_addr" : [ "/plates/wheel1" ],
+					"platewheelhd2::range_max" : [ 1.0 ],
+					"platewheelhd2::break_points" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.262295, 0.52459, 0, 0.295082, 0.57377, 0, 0.348361, 0.606557, 0, 0.405738, 0.622951, 0, 0.47541, 0.635246, 0, 0.536885, 0.622951, 0, 0.57377, 0.581967, 0, 0.606557, 0.536885, 0, 0.643443, 0.504098, 0, 0.70082, 0.5, 0, 0.75, 0.540984, 0, 0.786885, 0.590164, 0, 1.0, 1.0, 0 ],
+					"platewheelhd2::range_min" : [ 0.0 ],
+					"platewheelhd2::osc_addr" : [ "/plates/wheel2" ],
+					"platewheelhd3::range_max" : [ 1.0 ],
+					"platewheelhd3::break_points" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.92623, 0.053279, 0, 1.0, 0.241803, 0 ],
+					"platewheelhd3::range_min" : [ 0.0 ],
+					"platewheelhd3::osc_addr" : [ "/plates/wheel3" ],
+					"platewheelhd4::range_max" : [ 1.0 ],
+					"platewheelhd4::break_points" : [ 1.0, 0.0, 1.0, 0.0, 1.0, 0, 0.487705, 0.17623, 0, 1.0, 0.95082, 0 ],
+					"platewheelhd4::range_min" : [ 0.0 ],
+					"platewheelhd4::osc_addr" : [ "/plates/wheel4" ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"refresh_rate" : [ 0 ],
+					"osc_port" : [ 0 ],
+					"platewheelhd1::range_max" : [ 1.0 ],
+					"platewheelhd1::break_points" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 1.0, 1.0, 0 ],
+					"platewheelhd1::range_min" : [ 0.0 ],
+					"platewheelhd1::osc_addr" : [ "/plates/wheel1" ],
+					"platewheelhd2::range_max" : [ 1.0 ],
+					"platewheelhd2::break_points" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 1.0, 1.0, 0 ],
+					"platewheelhd2::range_min" : [ 0.0 ],
+					"platewheelhd2::osc_addr" : [ "/plates/wheel2" ],
+					"platewheelhd3::range_max" : [ 1.0 ],
+					"platewheelhd3::break_points" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 1.0, 1.0, 0 ],
+					"platewheelhd3::range_min" : [ 0.0 ],
+					"platewheelhd3::osc_addr" : [ "/plates/wheel3" ],
+					"platewheelhd4::range_max" : [ 1.0 ],
+					"platewheelhd4::break_points" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 1.0, 1.0, 0 ],
+					"platewheelhd4::range_min" : [ 0.0 ],
+					"platewheelhd4::osc_addr" : [ "/plates/wheel4" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
