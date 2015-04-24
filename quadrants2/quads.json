@@ -1,0 +1,38 @@
+{
+	"pattrstorage" : 	{
+		"name" : "quads",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"batch" : [ 0 ],
+					"batch[1]" : [ 0 ],
+					"serialosc-left::u255005463" : [  ],
+					"serialosc-left::deviceid" : [ "m128-448" ],
+					"split-patt::pattern" : [ 8 ],
+					"split-patt::u880005461" : [  ],
+					"qcells::3route-cell::3fileload" : [ 0 ],
+					"qcells::3route-cell::3presetload" : [ 0 ],
+					"qcells::3route-cell::3filepath" : [ 0 ],
+					"qcells::3route-cell::3prefixselect" : [ "---" ],
+					"qcells::1route-cell::1fileload" : [ 0 ],
+					"qcells::1route-cell::1presetload" : [ 0 ],
+					"qcells::1route-cell::1filepath" : [ 0 ],
+					"qcells::1route-cell::1prefixselect" : [ "---" ],
+					"qcells::2route-cell::2fileload" : [ 0 ],
+					"qcells::2route-cell::2presetload" : [ 0 ],
+					"qcells::2route-cell::2filepath" : [ 0 ],
+					"qcells::2route-cell::2prefixselect" : [ "---" ],
+					"qcells::0route-cell::0fileload" : [ 0 ],
+					"qcells::0route-cell::0presetload" : [ 0 ],
+					"qcells::0route-cell::0filepath" : [ 0 ],
+					"qcells::0route-cell::0prefixselect" : [ "---" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

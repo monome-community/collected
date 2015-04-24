@@ -1,0 +1,10 @@
+div.resize-wrap {
+    display:inline-block;
+    padding-right:10px; /* Padding against the edge when image is expanded*/
+}
+div.resize-wrap p.resize-message, div.resize-wrap p.enlarge-message {
+    background-color:#eeeeee;
+    border:1px solid #ccc;
+    padding: 4px;
+    margin:0 !important;
+}

@@ -1,0 +1,86 @@
+mlr3 preview notes
+nov12/2007
+tehn@monome.org
+http://monome.org
+
+
+quickstart:
+
+__ monomeserial prefix set to /mlr
+
+__ audio file loading
+
+1. drop files or folders onto the file list on the right
+2. top and bottom grey bars are scroll up/down (mapped to keys a/z)
+3. click filename to show preview (shift a/z moves up/down one file)
+
+__ channel setup (large wave view) and channel list (rows)
+
+1. setup reflects highlighted channel (from the channel list below)
+2. to assign file to channel:
+	- click "assign selected clip" below the wave view (key: x)
+	- shift-click the channel list box
+	(hint: to assign files quickly, hold down shift, use keys a/z and click channel list)
+
+__ turn on the dac (located on the far bottom left)
+
+__ rows on monome device correspond to channels (top row is special functions)
+	- hit monome keys on second row, given you have a file loaded on channel 0
+	
+__ click channel list boxes also ("virtual device")
+
+
+
+notes (in the place of real docs):
+
+__ wave selection
+1. ctrl - toggle "loop" selection mode
+2. apple/win - toggle "move" mode
+3. try "snap" to grid then set grid-sub to 16
+
+__ channel setup
+1. "slaved" matches playback speed to global tempo.
+2. "octave" and "transpose" only apply when "slaved"
+
+__ groups
+1. orange drop-down is for routing.
+2. number next to "stop" is playback speed of current clip.
+3. panning
+
+__ setup / group
+1. fade is in ms. cross-fade between clips, not in-out. for the old clicks, set to 0.
+2. per-group quantize, off included.
+
+__ setup / sync
+1. this should work? totally untested. relies completely on max/msp's sync~ object.
+
+__ setup / vst
+1. "select" lets you choose a vst plugin
+2. "window" loads the vst window
+3. "cc-route" lets you map midi cc to vst param. all auto-filled, with learn function
+
+__ setup / row
+1. this is an experiment-- dynamic top row routing. press and toggle modes available.
+2. currently available sends:
+
+route
+vol
+mute
+pan
+
+example: group 1 volume to 100 on press, return to 127 (unity) on release
+
+1vol 100		1vol 127
+
+
+
+
+not-yet-implemented list:
+
+- pattern recorder functions not mapped to monome keys
+- presets
+- session file saving
+- sublooping (two-press within row)
+- live recording
+- reverse?
+- vst cc setup saving

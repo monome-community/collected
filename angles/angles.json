@@ -1,0 +1,31 @@
+{
+	"pattrstorage" : 	{
+		"name" : "angles.json",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"midichan" : [ 1 ],
+					"midiport" : [ "from Max 1" ],
+					"xcc" : [ 0 ],
+					"xflip" : [ 0 ],
+					"xon" : [ 1 ],
+					"ycc" : [ 1 ],
+					"yflip" : [ 0 ],
+					"yon" : [ 1 ],
+					"zcc" : [ 2 ],
+					"zflip" : [ 0 ],
+					"zon" : [ 1 ],
+					"smoothtime" : [ 200 ],
+					"countmode" : [ 0 ],
+					"#0serialosc::u034003605" : [  ],
+					"#0serialosc::deviceid" : [ "m0000536" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

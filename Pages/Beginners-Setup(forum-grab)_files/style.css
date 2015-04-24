@@ -1,0 +1,2039 @@
+#ConversationForm textarea.MultiComplete,
+#ConversationForm .TextBox,
+#MessageForm textarea,
+div.Comment div.CommentForm,
+div.Comment div.CommentForm textarea,
+div.CommentForm textarea,
+#DiscussionForm input.InputBox,
+#DiscussionForm textarea {
+	width:99%;
+}
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+
+body.Activity #context ul.navigation li.activity {
+	background: #666666;
+}
+body.Activity #context ul.navigation li.activity a {
+	color: #fff;
+}
+
+body.Discussions #context ul.navigation li.discussions, body.Discussion #context ul.navigation li.discussions {
+	background: #666666;
+}
+body.Discussions #context ul.navigation li.discussions a, body.Discussion #context ul.navigation li.discussions a {
+	color: #fff;
+}
+
+body.Messages #context ul.navigation li.messages {
+	background: #666666;
+}
+body.Messages #context ul.navigation li.messages a {
+	color: #fff;
+}
+
+
+body.Messages #content ul.Conversations {
+	margin-top: 20px;
+}
+
+body.Messages #content .NewConversation {
+	margin-top: 10px;
+}
+
+body.Messages #content .SubTab {
+	margin-top: 20px;
+	text-align: left;
+}
+
+body.Activity #content ul.Activities {
+	margin-top: 20px;
+}
+
+body.Activity #content .disc-side {
+	margin-top: 20px;
+}
+
+body.Search #content ul.SearchResults {
+	margin-top: 20px;
+}
+
+body.Search #content .disc-side {
+	margin-top: 20px;
+}
+
+body.Discussions.index .two-column,
+body.Discussions.Categories .two-column,
+body.Discussions.popular .two-column,
+body.Discussions.mine .two-column,
+body.Discussions.bookmarked .two-column,
+body.Drafts .two-column {
+	margin-top: 44px;
+}
+
+
+.container.seven-by {
+	margin-top: 20px;
+}
+
+#filter {
+
+}
+
+.BoxCategories {
+	display: none;
+}
+
+body.Drafts .two-column {
+	
+}
+	
+body.Categories #filter ul.navigation li:first-child {
+	background: transparent;
+}
+
+body.Categories #filter ul.navigation li:first-child a {
+	color: #777;
+}
+
+#filter ul.navigation li.Active:first-child {
+	margin-right: 10px;
+}
+
+body.Categories.open #filter ul.navigation li.open,
+body.Categories.help #filter ul.navigation li.help,
+body.Categories.applications #filter ul.navigation li.applications,
+body.Categories.media #filter ul.navigation li.media,
+body.Categories.emulators #filter ul.navigation li.emulators,
+body.Categories.trade #filter ul.navigation li.trade,
+body.Categories.news #filter ul.navigation li.news {
+	background: #666666;	
+}
+
+body.Categories.open #filter ul.navigation li.open a,
+body.Categories.help #filter ul.navigation li.help a,
+body.Categories.applications #filter ul.navigation li.applications a,
+body.Categories.media #filter ul.navigation li.media a,
+body.Categories.emulators #filter ul.navigation li.emulators a,
+body.Categories.trade #filter ul.navigation li.trade a,
+body.Categories.news #filter ul.navigation li.news a {
+	color: #fff;
+}
+
+
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+.search label {
+	color: #999;
+	margin-right: 5px;
+}
+
+.search .InputBox {
+	background: #ddd;
+	border: 1px solid #ccc;
+	border-right: none;
+	padding: 3px 5px;
+	margin: 0;
+	width: 235px;
+	text-transform: lowercase;
+}
+
+.search .Button {
+	text-transform: lowercase;
+	background: #ccc;
+	border: 1px solid #ccc;
+	padding: 3px 8px;
+	color: #333;
+}
+
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+
+#Bookmarks {
+	display: none;
+}
+
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+
+a.NewDiscussion, a.NewConversation {
+	font-size: 14px;
+	background: #fff9b3;
+	border: 1px solid #efe385;
+	display: block;
+	line-height: 63px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	color: #222;
+	text-transform: lowercase;
+	box-shadow: 0px 1px 1px rgba(0,0,0,.25);
+	border-radius: 4px;
+}
+
+a.NewDiscussion:hover, a.NewConversation:hover {
+	background: #fff786;
+	border: 1px solid #efe385;
+}
+
+
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+
+.Tags ul.PanelInfo {
+	border: none;
+}
+
+.Tags ul.PanelInfo li {
+	border-bottom: 1px solid #eee;
+	text-align: right !important;
+	padding: 0;
+	clear: left;
+}
+
+.Tags ul.PanelInfo li a {
+	display: block;
+	text-decoration: none !important;
+	color: #111;
+	padding: 5px 10px;
+}
+
+.Tags ul.PanelInfo li a:hover {
+	background: #eee;
+}
+
+.Tags ul.PanelInfo li:last-child {
+	border-bottom: none;
+}
+
+.Tags ul.PanelInfo span.tag {
+	float: left;
+	color: #111;
+}
+
+.Tags ul.PanelInfo span.number {
+	text-align: right;
+	color: #777;
+}
+
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+ul.PanelInfo {
+	font-size: 12px;
+	text-align: right;
+	border: 1px solid #eee;
+}
+
+ul.PanelInfo strong {
+	font-weight: normal;
+}
+
+ul.PanelInfo li {
+	border-bottom: 1px solid #eee;
+	padding: 5px 10px;
+
+}
+
+ul.PanelInfo li a {
+	text-decoration: none;
+	color: #777;
+	display: block;
+}
+
+ul.PanelInfo li a:hover {
+	text-decoration: underline;
+}
+
+ul.PanelInfo li:last-child {
+	border-bottom: none;
+}
+
+ul.PanelInfo li strong {
+	float: left;
+}
+
+.Group ul.PanelInfo li {
+  text-align: left;
+}
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+ul.DataList  {
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+
+ul.DataList div.Meta strong {
+	-webkit-box-shadow: none !important;
+	position: static !important;
+	color: #333;
+}
+
+ul.DataList li.Item {
+	background: #f5f5f5;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+	text-align: left;	
+}
+
+ul.DataList li.Item:last-child {
+	border-bottom: none;
+}
+
+ul.DataList li.Alt {
+	background: #f1f1f1;
+}
+
+ul.DataList li.New {
+	background: #fffef1 !important;
+}
+
+ul.DataList li.Announcement {
+	background: #fafafa !important;
+}
+
+ul.DataList .Options{
+	display: none;
+	font-size: 11px;
+	list-style: none;
+	background: #fff;
+}
+
+ul.DataList .Options ul li ul li {
+	display: inline;
+	margin-right: 5px;
+}
+
+.ItemContent a {
+	margin-bottom: 2px;
+	color: #111;
+	text-decoration: none;
+}
+
+.ItemContent a:hover {
+	text-decoration: underline;
+}
+
+.ItemContent a.Title {
+	font-size: 14px;
+}
+
+.ItemContent span.Announcement, .ItemContent span.Closed {
+	font-size: 10px;
+	color: #999;
+	padding: 1px 3px;
+	background: #eee;
+	border: 1px solid #ddd;
+}
+
+ul.DataList.Discussions li.hover, ul.DataList.Conversations li.hover {
+	background: #fafafa !important;
+}
+
+.ItemContent .Meta {
+	font-size: 11px;
+	color: #999 !important;
+	left: 70px;
+	position: absolute;
+	bottom: 12px;
+	opacity: .85;
+}
+
+.ItemContent .Meta a {
+/*	color: #666;*/
+}
+
+.ItemContent .Meta .LastCommentBy a {
+	background: url(user.png) no-repeat 0 3px;
+	padding-left: 10px;
+}
+
+.ItemContent a.Category {
+	padding-left: 10px;
+	background: url(bullet.png) no-repeat 0 3px;
+	display: inline-block;
+	font-size: 11px;
+	opacity: .85;
+	text-transform: lowercase;
+}
+
+.ItemContent .comments {
+	line-height: 20px;
+	right: 10px;
+	top: 10px;
+	position: absolute;
+	text-align: right;
+	color: #666;
+	background: url(comment.png) no-repeat 0 4px;
+	padding-left: 20px;
+	font-size: 14px;
+}
+
+.comments-number {
+	margin-top: -3px;
+}
+
+.ItemContent .comments span {
+	letter-spacing: -1px;
+	font-size: 9px;
+	vertical-align: super;
+	color: #666;
+	margin-left: 2px;
+}
+
+.follows, .votes {
+	color: #aaa;
+}
+
+.views {
+	display: none;
+}
+
+sup {
+	vertical-align: super !important;
+}
+
+
+.ItemContent .follow-toggle {
+	position: absolute;
+	right: 10px;
+	font-size: 11px;
+	bottom: 12px;
+	text-transform: lowercase;
+}
+
+.ItemContent .follow-toggle a {
+	padding-left: 12px;
+	color: #ccc;
+	background: url(star-dim.png) no-repeat 0 3px;
+}
+
+.ItemContent .follow-toggle a:hover {
+	color: #666;
+}
+
+.ItemContent .follow-toggle a.Bookmarked {
+	background: url(star.png) no-repeat 0 3px;
+}
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+.disc-side {
+	margin-top: 10px;
+}
+
+.Discussions .disc-side {
+	margin-top: 68px;
+}
+
+.Profile .disc-side {
+  margin-top: 68px;
+}
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+
+.discussion-head  {
+	text-align: left;
+	padding: 10px 0;
+/*	position: relative;*/
+}
+
+.discussion-head .stats {
+	right: 10px;
+	top: 0px;
+	position: absolute;
+	text-align: right;
+}
+
+.discussion-head .stats .follow-toggle a:hover {
+	text-decoration: underline;
+}
+
+.discussion-head .category a {
+	color: #555;
+	font-size: 11px;
+	text-decoration: none;
+	padding-left: 10px;
+	background: url(bullet.png) no-repeat 0 3px;
+}
+
+.discussion-head .follow-toggle a {
+	margin-left: 10px;
+	padding-left: 12px;
+	background: url(star-dim.png) no-repeat 0 3px;
+}
+
+.discussion-head .follow-toggle a.Bookmarked {
+	background: url(star.png) no-repeat 0 3px;
+}
+
+.discussion-head .category a:hover {
+	text-decoration: underline;
+}
+
+ul.MessageList .Item.Comment {
+	text-align: left;
+	border-top: 1px solid #ddd;
+	padding: 10px 10px 0 10px;
+}
+
+ul.MessageList .Item.Mine {
+	border-top: 1px solid #999;
+}
+
+ul.MessageList li .Comment .Message {
+	font-size: 12px;
+	color:#444;
+	clear: both;
+	margin: 20px 0 30px 0;
+}
+
+ul.MessageList li .Comment .Meta {
+	text-align: left;
+}
+
+ul.MessageList li .Comment .Message p {
+	margin-bottom: 10px;
+}
+
+ul.MessageList .Comment .Meta .Author {
+	font-weight: bold;
+	font-size: 12px;
+	display: block;
+	margin-top: 2px;
+}
+
+ul.MessageList .Comment .Meta .Author a {
+	text-decoration: none;
+	color: #222;
+}
+
+ul.MessageList .Comment .Meta .Author a:hover {
+	text-decoration: underline;
+}
+
+ul.MessageList .Comment .Meta .Author img {
+	background: #ccc;
+	border: 1px solid #aaa;
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+	float: left;
+}
+
+ul.MessageList .Comment .Meta .controls {
+	display: block;
+	text-transform: lowercase;
+	font-size: 11px;
+	color: #999;
+}
+
+ul.MessageList .Comment .Meta .controls a {
+	font-size: 11px;
+	text-decoration: none;
+	color: #aaa;
+	margin-right: 3px;
+}
+
+ul.MessageList .Comment .Meta .controls a:hover {
+	color: #666;
+	text-decoration: underline;
+}
+
+ul.MessageList .Comment .Meta .Permalink, ul.MessageList .Comment .Meta .EditDiscussion {
+	
+} 
+
+ul.MessageList .Comment .Meta .Votes {
+	position: absolute;
+	right: 0px;
+	text-align: right;
+	font-size: 11px;
+}
+
+
+ul.MessageList .FirstComment .Meta .Votes {
+	top: -64px;
+}
+	
+ul.MessageList .Comment .Meta .VoteUp, ul.MessageList .Comment .Meta .VoteDown {
+	background: none;
+	font-size: 10px;
+	text-decoration: none;
+	color: #aaa;
+	display: inline-block;
+	margin-left: 3px;
+}
+
+ul.MessageList .FirstComment .Meta .VoteUp {
+	color: #888;
+}
+
+ul.MessageList .FirstComment .Meta .Votes sup {
+	color: #aaa;
+}
+
+ul.MessageList .Comment .Meta .VoteUp:hover, ul.MessageList .Comment .Meta .VoteDown:hover {
+	color: #111;
+	text-decoration: underline;
+}
+
+
+ul.MessageList .Comment .Meta .Votes span {
+	font-size: 12px;
+	color: #999;
+	background: none;
+	font-weight: normal;	
+}
+
+ul.MessageList .FirstComment .Meta .Votes span {
+	font-size: 14px;
+	color: #333;
+}
+
+ul.MessageList .Comment .Meta .Votes span.light {
+	font-size: 11px;
+	color: #aaa;
+	display: inline;
+	margin-right: 5px;
+}
+
+ul.MessageList li .Tabs {
+	text-align: left;
+	border: none;
+	text-transform: lowercase;
+	margin: 0 0 30px 10px;
+	font-size: 11px;
+	color: #555;
+}
+
+ul.MessageList li .Tabs span {
+	float: left;
+	background: url(bullet.png) no-repeat 0 6px;
+	padding: 3px 0 3px 10px;
+}
+
+ul.MessageList li .Tabs ul {
+	margin: 0 0 0 10px;
+	float: left;
+}
+
+ul.MessageList li .Tabs ul li {
+	font-size: 11px;
+	float: left;
+	display: block;
+}
+
+ul.MessageList li .Tabs ul li.Active {
+	background: #777;
+}
+
+ul.MessageList li .Tabs ul li.Active a {
+	color: #fff;
+}
+
+ul.MessageList li .Tabs ul li.Active a:hover {
+	color: #fff;
+}
+
+ul.MessageList li .Tabs ul li a {
+	color: #777;
+}
+
+ul.MessageList li .Tabs ul li a:hover {
+	color: #333;
+}
+
+
+.CommentForm {
+	margin: 20px 0;
+	text-align: left;
+	padding: 0 10px 0 10px;
+}
+
+.CommentForm h3 {
+	margin-bottom: 10px;
+}
+.CommentForm .TextBox {
+	font-size: 12px;
+	padding: 5px;
+	border: 1px solid #999;
+}
+
+.CommentForm .Cancel, .CommentForm .DraftButton, .CommentForm .Back {
+	text-transform: lowercase;
+	font-size: 12px;
+	color: #999;
+	text-decoration: none;
+	margin-left: 5px;
+	display: inline;
+}
+
+.CommentForm .Cancel:hover, .CommentForm .DraftButton:hover, .CommentForm .Back:hover {
+	text-decoration: underline;
+	color: #333;
+}
+
+.CommentForm .CommentButton {
+    text-transform: lowercase;
+	margin-top: 10px;
+	background: #fff9b3;
+	border: 1px solid #efe385;
+	margin-bottom: 10px;
+	line-height:32px;
+	padding: 0 10px;
+	font-size: 12px;
+	box-shadow: 0px 1px 1px rgba(0,0,0,.25);
+	border-radius: 4px;
+}
+
+.CommentForm .CommentButton:hover {
+	background: #fff786;
+	border: 1px solid #efe385;
+}
+
+
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+
+.Messages.Errors ul {
+	margin-bottom: 10px;
+}
+
+.Messages.Errors ul li {
+	color: red;
+	font-size: 14px;
+}
+
+.DiscussionWrapper {
+	text-align: left;
+}
+
+.DiscussionWrapper h2 {
+	margin-bottom: 20px;
+	text-transform: lowercase;
+}
+
+body.discussion .two-thirds {
+  width: 860px !important;
+  float: none;
+}
+
+body.discussion .one-third {
+  width: 0;
+  display: none;
+}
+
+
+#DiscussionForm {
+	font-size: 12px;
+	background: #f5f5f5;
+	padding: 10px;
+	border: 1px solid #bbb;
+	text-align: left;
+	margin-top: 20px;
+}
+
+#DiscussionForm h1 {
+  text-transform: lowercase;
+  font-size: 14px;
+}
+
+#DiscussionForm label {
+	display: block;
+	font-size: 11px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	color: #555;
+	text-transform: lowercase;
+}
+
+#DiscussionForm label.first {
+	margin-top: 0;
+}
+
+#DiscussionForm select.Category {
+	font-size: 14px;
+}
+
+#DiscussionForm #Form_Body {
+	border: 1px solid #ccc;
+	padding: 5px;
+	height: 200px;
+	margin-top: 20px;
+	width: 825px;
+}
+
+#DiscussionForm  #Form_Name {
+	border: 1px solid #ccc;
+	padding: 5px;
+	font-size: 14px;
+	width: 825px;
+}
+
+#DiscussionForm ul.token-input-list {
+	font-size: 12px;
+	border: 1px solid #ccc;
+	width: 825px;
+}
+
+.AttachFileLink a {
+	display: block;
+	font-size: 11px;
+	text-decoration: none;
+	color: #aaa;
+	background: url(bullet.png) no-repeat 0 4px;
+	padding-left: 10px;
+	text-transform: lowercase;
+	margin-bottom: 5px;
+}
+
+.UploadProgress strong {
+	font-size: 11px;
+	text-transform: lowercase;
+	font-weight: normal;
+}
+
+.Attachment .FileHover {
+	display: none;
+	font-size: 12px;
+}
+
+.Attachment:hover .FileHover {
+	z-index: 101;
+	display: block;
+	background: #fff;
+	padding: 6px;
+	border: 1px solid #555;
+	position: absolute;
+	top: -7px;
+	left: -7px;
+}
+
+#DiscussionForm .AttachFileLink a {
+	font-size: 11px;
+}
+#DiscussionForm input.DiscussionButton {
+	margin-top: 30px;
+	background: #fff9b3;
+	border: 1px solid #efe385;
+	margin-bottom: 10px;
+	line-height:32px;
+	padding: 0 10px;
+	text-transform: lowercase;
+	font-size: 14px;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, .25);
+  border-radius: 4px;
+}
+
+#DiscussionForm input.PreviewButton {
+	display: none;
+}
+
+#DiscussionForm input.DiscussionButton:hover {
+	background: #fff786;
+	border: 1px solid #efe385;
+}
+
+#DiscussionForm input.DraftButton, #DiscussionForm input.PreviewButton, #DiscussionForm .Cancel {
+	line-height:32px;
+	padding: 0 10px;
+	background: none;
+	border: none;
+	color: #666;
+	text-transform: lowercase;
+	text-decoration: none;
+}
+
+#DiscussionForm input.DraftButton:hover, #DiscussionForm input.PreviewButton:hover, #DiscussionForm .Cancel:hover {
+	color: #111;
+}
+
+
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+
+h2.taggedheading {
+	margin-bottom: 20px;
+}
+
+.Empty {
+	margin: 20px 0;
+	font-size: 18px;
+	color: #999;
+	text-align: center;
+}
+
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+.Foot {
+	text-align: center;
+	font-size: 12px;
+	text-transform: lowercase;
+}
+
+.Foot .Note {
+	color: #999;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+.Foot a {
+	text-decoration: none;
+	color: #ccc;
+}
+
+.Foot a:hover {
+	text-decoration: underline;
+	color: #aaa;
+}
+
+
+#Foot {
+	text-align: left;
+	font-size: 10px;
+	color: #999;
+	margin: 30px 0 10px 0;
+}
+
+#Foot a.email {
+	font-size: 12px;
+	color: #666;
+	text-decoration: none;
+	line-height: 18px;
+/*  padding-left: 10px;*/
+/*  background: url(bullet.png) no-repeat 0 4px;*/
+}
+
+#Foot a.email:hover {
+	text-decoration: underline;
+}
+
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+#PagerBefore {
+	margin: 10px 0 20px 0;
+}
+
+.NumberedPager {
+	font-size: 12px;
+	color: #999;
+}
+
+.NumberedPager a, .NumberedPager span {
+	margin-right: 10px;
+	padding: 5px 8px;
+}
+
+.NumberedPager a {
+	text-decoration: none;
+	color: #666;
+	background: #fff;
+}
+
+.NumberedPager a:hover {
+	text-decoration: none;
+	color: #333;
+	background: #eee;
+}
+
+.NumberedPager .Highlight {
+	color: #333;
+	background: #eee;
+	border: 1px solid #ddd;	
+}
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+
+body.Messages .Tabs ul {
+	display: none;
+}
+
+body.Messages .SubTab {
+	font-size: 16px;
+	margin-bottom: 20px;
+	color: #999;
+	text-transform: lowercase;
+}
+
+body.Messages .SubTab a {
+	text-decoration: none;
+	color: #333;
+}
+
+body.Messages .SubTab a:hover {
+	text-decoration: underline;
+}
+
+ul.DataList.Conversations li.Item .Photo {
+	display:none;
+}
+
+ul.DataList.Conversations li.Item .ItemContent .Excerpt {
+	font-size: 14px;
+}
+
+ul.DataList.Conversations li.Item .ItemContent .Meta {
+	position: static;
+	display: block;
+	line-height: 18px;
+}
+ul.DataList.Conversations li.Item .ItemContent .Meta .Name {
+	background: url(user.png) no-repeat 0 3px;
+	padding-left: 10px;
+}
+
+ul.DataList.Conversations li.Item .ItemContent .Meta span {
+	margin-right: 5px;
+}
+
+
+ul.MessageList.Conversation li.Item {
+	text-align: left;
+	border-top: 1px solid #ddd;
+	padding: 10px;
+}
+
+ul.MessageList.Conversation li.Item.Mine {
+	border-top: 1px solid #999;
+}
+
+ul.MessageList.Conversation li .ConversationMessage .Message {
+	font-size: 12px;
+	color:#444;
+	clear: both;
+	margin: 20px 0 30px 0;
+}
+
+ul.MessageList.Conversation .ConversationMessage .Meta {
+	display: block;
+	text-transform: lowercase;
+	font-size: 11px;
+	color: #999;
+}
+
+ul.MessageList.Conversation .ConversationMessage .Meta .Author {
+	font-weight: bold;
+	font-size: 12px;
+	display: block;
+	margin-top: 2px;
+}
+
+ul.MessageList.Conversation .ConversationMessage .Meta .Author a {
+	text-decoration: none;
+	color: #222;
+}
+
+ul.MessageList.Conversation .ConversationMessage .Meta .Author img {
+	background: #ccc;
+	border: 1px solid #aaa;
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+	float: left;
+}
+
+#MessageForm {
+	padding: 10px;
+	text-align: left;
+}
+
+#MessageForm .MessageBox {
+	font-size: 12px;
+	padding: 5px;
+	border: 1px solid #999;
+}
+
+#MessageForm h2 {
+	text-transform: lowercase;
+	margin-bottom: 10px;
+}
+
+#MessageForm input.Button {
+	margin-top: 20px;
+	background: #fff9b3;
+	border: 1px solid #efe385;
+	margin-bottom: 10px;
+	line-height:32px;
+	padding: 0 10px;
+	text-transform: lowercase;
+	font-size: 14px;
+}
+
+#MessageForm input.Button:hover {
+	background: #fff786;
+	border: 1px solid #efe385;
+}
+
+.Box.AddPeople form{
+	padding: 10px;
+	border: 1px solid #eee;
+}
+
+.Box.AddPeople .Button {
+	border: 1px solid #999;
+	padding: 3px 5px;
+	background: #ccc;
+	margin-top: 10px;
+	font-size: 12px;
+	text-transform: lowercase;
+}
+#Form_AddPeople textarea{
+	width: 245px;
+	padding: 5px;
+	border: 1px solid #999;
+	height: 80px;
+	font-size: 12px;
+}
+
+.ac_results {
+	text-align: left;
+	background: #fff;
+	border: 1px solid #ddd;
+	font-size: 12px;
+}
+
+.ac_results li {
+	padding: 2px;
+}
+
+.ClearConversation {
+	font-size: 14px;
+	background: #eee;
+	border: 1px solid #ddd;
+	display: block;
+	line-height: 55px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	color: #999;
+	text-transform: lowercase;
+}
+
+.ClearConversation:hover {
+	background: #ddd;
+	border-color: #ccc;
+	color: #666;
+}
+
+body.Conversations.Index a.NewConversation {
+	margin-top: 40px;
+}
+
+body.Messages.Index a.NewConversation {
+	margin-top: 0px;
+}
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+
+ul.DataList.Drafts li.Draft .OptionButton a.Delete {
+	float: right;
+	display: static;
+	font-size: 12px;
+	color: #aaa;
+	text-decoration: none;
+	text-transform: lowercase;
+}
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+.ProfileTabs ul {
+  list-style: none;
+  text-align: left;
+  text-transform: lowercase;
+  line-height: 64px;
+}
+
+.ProfileTabs ul li {
+  display: inline;
+  padding: 3px 5px;
+}
+
+.ProfileTabs ul li a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #777;
+  padding: 5px;
+}
+
+.ProfileTabs ul li.Activity {
+  display:none;
+}
+
+.ProfileTabs ul li a:hover {
+  color: #444;
+}
+
+.ProfileTabs ul li a span {
+	letter-spacing: -1px;
+	font-size: 10px;
+	vertical-align: super;
+	color: #999;
+}
+
+.ProfileTabs ul li.Active {
+	background: #666666;
+}
+
+.ProfileTabs ul li.Active a {
+	color: #fff;
+}
+
+.ProfileTabs ul li.Active a span {
+	color: #ccc;
+}
+
+.ProfileTabs .MyProfile {
+  display: none;
+}
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+
+/*#shout {
+  text-align: left; 
+}
+
+#shout form {
+  margin: 0 0 30px 0;
+}
+
+#shout .TextBox {
+  border: 1px solid #ccc;
+  background: #f5f5f5;
+  padding: 5px;
+  width: 700px;
+  font-size: 12px;
+  height: 80px;
+}
+
+#shout .Button {
+  background: #fff9b3;
+  border: 1px solid #efe385;
+  font-size: 14px;
+  line-height:30px;
+  padding: 0 10px;
+}
+
+#shout-form .Button:hover {
+  background: #fff786;
+  border: 1px solid #efe385;
+}*/
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+.ActivityTabs {
+	display: none;
+}
+
+ul.DataList.Activities, ul.DataList.ActivityComments {
+  margin-top: 10px;
+	border: none;
+}
+
+
+ul.DataList.Activities li {
+	background: transparent;
+	font-size: 12px;
+	color: #444;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+
+ul.DataList.Activities .Item {
+	border-top: 1px solid #bbb;
+	border-bottom: none;
+	padding-top: 10px;
+}
+
+ul.DataList.Activities .Item.Activity:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+
+ul.DataList.Activities li.Item.ActivityComment {
+	margin: 10px 0 0 30px;
+	border-top: 1px solid #ddd;
+	border-bottom: none;
+}
+
+
+ul.DataList.Activities ul.ActivityComments {
+	margin-top: 20px;
+}
+
+ul.DataList.Activities .ItemContent .Meta {
+	height:auto !important;
+	display: inline;
+}
+
+ul.DataList.Activities .ItemContent span.ManageComment, ul.DataList.Activities .ItemContent span.DeleteComment {
+	color: #ddd;
+	text-transform: lowercase;
+}
+
+ul.DataList.Activities .ItemContent .ManageComment .Delete {
+	display: inline !important;
+	margin-left: 5px;
+}
+
+ul.DataList.Activities .ItemContent .ManageComment a, ul.DataList.Activities .ItemContent .DeleteComment a {
+	color: #ccc;
+}
+
+ul.DataList.Activities .ItemContent .Name {
+	font-weight: bold;
+	font-size: 12px;
+	display: inline-block;
+	margin-top: 2px;
+}
+
+ul.DataList.Activities .ItemContent .Title a {
+	font-weight: bold;
+}
+
+ul.DataList.Activities .Item.ActivityComment .Name {
+	font-size:11px;
+	display: inline;
+}
+
+ul.DataList.Activities .ItemContent .DateCreated {
+	font-size: 11px;
+	color: #999;
+	display: block;
+	text-transform: lowercase;
+}
+
+ul.DataList.Activities .Item.ActivityComment .DateCreated {
+	font-size:10px;
+}
+
+ul.DataList.Activities .ItemContent .Excerpt {
+	display: block;
+	clear: left;
+	margin-top: 12px;
+	font-size:12px;
+}
+
+ul.DataList.Activities .Item.ActivityComment .Excerpt {
+	font-size: 11px;
+}
+
+ul.DataList.Activities .ItemContent a {
+	text-decoration: none;
+	color: #222;
+}
+
+ul.DataList.Activities .ItemContent a:hover {
+	text-decoration: underline;
+	color: #222;
+}
+
+ul.DataList.Activities .Item .Photo img{
+	background: #ccc;
+	border: 1px solid #aaa;
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+	float: left;
+}
+
+ul.DataList.Activities .Item.ActivityComment .Photo img{
+	background: #ccc;
+	border: 1px solid #aaa;
+	width: 28px;
+	height: 28px;
+	margin-right: 10px;
+	float: left;
+}
+
+ul.ActivityComments li.CommentForm {
+	padding: 0;
+	margin-left: 30px;
+}
+
+ul.ActivityComments li.CommentForm a.CommentLink {
+	display: none;
+}
+
+ul.ActivityComments li.CommentForm #Form_Body {
+	width:100%;
+	height: 40px;
+	border: 1px solid #ddd;
+	background: #fafafa;
+}
+
+ul.ActivityComments li.CommentForm .Button  {
+	background: #fff9b3;
+	border: 1px solid #efe385;
+	font-size: 12px;
+	padding: 0 10px;
+	line-height:24px;
+	margin-top: 5px;
+}
+
+ul.ActivityComments li.CommentForm .Button:hover {
+	background: #fff786;
+	border: 1px solid #efe385;
+}
+
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+.Box dl {
+	font-size: 12px;
+	padding: 10px;
+	line-height: 18px;
+}
+
+.Box dt {
+	width: 30%;
+	float: left;
+	color: #999;
+}
+
+.Box dd   {
+	width: 69%;
+	float: left;
+}
+
+#UserOptions ul {
+	border: none;
+	text-align: center;
+}
+
+#UserOptions ul li {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+#UserOptions ul li a {
+	font-size: 14px;
+	background: #eee;
+	border: 1px solid #ddd;
+	display: block;
+	line-height: 55px;
+	margin-bottom: 5px;
+	text-decoration: none;
+	color: #999;
+	text-transform: lowercase;
+}
+
+#UserOptions ul li a:hover {
+	background: #ddd;
+	border-color: #ccc;
+	color: #666;
+}
+
+.User h1 {
+  text-align: left;
+	margin-bottom: 10px;
+	display:none;
+}
+
+.User #Status {
+	display: none;
+}
+
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+#content .SearchTabs {
+  display: none;
+}
+
+
+ul.SearchResults li.Item  {
+  position: relative;
+}
+
+ul.SearchResults .Item .Title {
+	font-size: 14px;
+}
+
+ul.SearchResults .Item .Excerpt {
+	font-size: 11px;
+	margin: 10px 0;
+	color: #777;
+}
+
+
+p.NoResults {
+  margin-top: 20px;
+  text-align: left;
+  color: #999;
+}
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+.PrefCheckBox {
+  width: 40px;
+}
+
+#Form_Picture {
+  margin: 10px 0;
+}
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+.Box.GuestBox p {
+	font-size: 12px;
+	border: 1px solid #eee;
+	padding: 10px;
+	line-height: 18px;
+	color: #666;
+}
+
+.Box.GuestBox a {
+	color: #333;
+}
+
+.Box.GuestBox a:hover {
+	color: #000;
+}
+
+.About span.Email a {
+  color: #000;
+  text-decoration: none;
+}
+
+.About span.Email a:hover {
+  text-decoration: underline;
+}
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+
+body.register .five-column {
+	float: none;
+	width: 500px;
+	margin: 0 auto;
+}
+
+
+body.register #content h1 {
+	margin: 20px 0;
+	text-transform: lowercase;
+	text-align: left;
+}
+
+body.register #content .Box {
+	font-size: 12px;
+	background: #f5f5f5;
+	padding: 10px;
+	border: 1px solid #bbb;
+	text-align: left;
+}
+
+body.register .two-thirds {
+  width: 100%;
+}
+
+
+body.register .one-third {
+  width: 0;
+  display: none;
+}
+
+#Form_User_Register label {
+	display: block;
+	font-size: 11px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	color: #555;
+	text-transform: lowercase;
+}
+
+#Form_User_Register label.first {
+	margin-top: 0;
+}
+
+#Form_User_Register label.CheckBoxLabel {
+	font-size: 12px;
+}
+
+#Form_User_Register label.RadioLabel {
+	margin-left: 20px;
+	font-size:12px;
+}
+
+#Form_User_Register .InputBox {
+	border: 1px solid #ccc;
+	padding: 5px;
+	width: 825px;
+	font-size: 14px;
+	background: #fafafa;
+}
+
+#Form_User_Register #recaptcha_widget_div {
+	margin-left: 20px;
+}
+
+#Form_User_Register .Button {
+	margin-top: 20px;
+	background: #fff9b3;
+	border: 1px solid #efe385;
+	margin-bottom: 10px;
+	line-height:32px;
+	padding: 0 10px;
+	text-transform: lowercase;
+	font-size: 14px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, .25);
+  border-radius: 4px;
+}
+
+#Form_User_Register .Button:hover {
+	background: #fff786;
+	border: 1px solid #efe385;
+}
+
+
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+.MyProfile label {
+  text-transform: lowercase;
+}
+
+.MyProfile #Form_Other,
+.MyProfile #Form_WebSite {
+  width: 100%;
+}
+
+.Box.About .box-wrap {
+  font-size: 12px;
+  border: 1px solid #EEE;
+  line-height: 18px;
+}
+
+.Box.About p {
+  font-size: 12px;
+}
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+body.signin #content h1 {
+	margin: 20px 0;
+	text-transform: lowercase;
+}
+
+body.signin #content .Box {
+	font-size: 12px;
+	background: #f5f5f5;
+	padding: 10px;
+	border: 1px solid #bbb;
+	text-align: left;
+}
+
+#Form_User_SignIn label, #Form_User_Password label {
+	display: block;
+	font-size: 11px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	color: #555;
+	text-transform: lowercase;
+	font-weight: normal;
+}
+
+body.signin .two-thirds {
+  width: 100%;
+  text-align: left;
+}
+
+body.signin .one-third {
+  width: 0;
+  display: none;
+}
+
+body.signin #Form_User_SignIn label.first {
+	margin-top: 0;
+}
+
+body.signin a.ForgotPassword {
+  display: block;
+}
+
+body.signin .MainForm a {
+  text-decoration: none;
+  color: #666;
+}
+
+body.signin .MainForm a:hover {
+  text-decoration: underline;
+}
+
+body.signin .MainForm {
+  font-size: 12px;
+}
+
+body.signin li.CreateAccount {
+  text-transform: lowercase;
+}
+
+#Form_User_SignIn label.CheckBoxLabel {
+	font-size: 12px;
+	margin: 10px 0 20px 0;
+	font-weight: normal;
+}
+
+body.signin #Form_User_SignIn .InputBox {
+	border: 1px solid #ccc;
+	padding: 5px;
+	width: 460px;
+	font-size: 14px;
+	background: #fafafa;
+}
+
+.SignInPopup #Form_User_SignIn .InputBox,  .SignInPopup #Form_User_Password .InputBox{
+	border: 1px solid #ccc;
+	padding: 5px;
+	width: 96%;
+	font-size: 14px;
+	background: #fafafa;
+}
+
+#Form_User_SignIn .Button, #Form_User_Password .Button {
+	margin-top: 20px;
+	background: #fff9b3;
+	border: 1px solid #efe385;
+	line-height:32px;
+	padding: 0 10px;
+	text-transform: lowercase;
+	font-size: 14px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, .25);
+  border-radius: 4px;
+}
+
+.SignInPopup  #Form_User_SignIn .Button {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+#Form_User_SignIn .Button:hover, #Form_User_Password .Button:hover {
+	background: #fff786;
+	border: 1px solid #efe385;
+}
+
+#Form_User_SignIn ul li.bulleted {
+	font-size: 11px;
+	background: url(bullet.png) no-repeat 0 3px;
+	padding-left: 10px;
+	padding-bottom: 2px;
+}
+
+#Form_User_SignIn ul li.bulleted a {
+	text-decoration: none;
+	color: #999;
+}
+
+#Form_User_SignIn ul li.bulleted a:hover {
+	text-decoration: underline;
+	color: #333;
+}
+
+#Form_User_Password a.ForgotPassword {
+	display: block;
+	font-size: 11px;
+	margin: 10px 0;
+	background: url(bullet.png) no-repeat 0 3px;
+	padding-left: 10px;
+}
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+
+#Form_Conversation div {
+	margin-top: 10px;
+}
+
+#Form_Conversation label {
+	color: #555;
+	font-size: 11px;
+	text-transform: lowercase;
+}
+
+#Form_Conversation #Form_To {
+	height: 40px;
+}
+
+#Form_Conversation textarea {
+	padding: 5px;
+	margin-bottom: 10px;
+	width: 96% !important;
+}
+
+#Form_Conversation .Button {
+	background: #fff9b3;
+	border: 1px solid #efe385;
+	line-height:32px;
+	padding: 0 10px;
+	text-transform: lowercase;
+	font-size: 14px;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, .25);
+  border-radius: 4px;
+}
+
+#Form_Conversation .Button:hover {
+	background: #fff786;
+	border: 1px solid #efe385;
+}
+
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+.Popup .Content {
+	font-size:12px;
+	margin-bottom: -10px;
+}
+
+.Popup .Footer {
+	padding: 0 10px 10px 10px;
+}
+
+.Footer input.Button {
+	line-height:32px;
+	padding: 0 10px;
+	text-transform: lowercase;
+	font-size: 14px;	
+}
+
+.Footer .Button.Okay:hover {
+	background: #fff786;
+	border: 1px solid #efe385;
+}
+
+.Footer input.Button.Okay {
+	background: #fff9b3;
+	border: 1px solid #efe385;	
+}
+
+.Footer input.Button.Cancel {
+	border: none;
+	background: transparent;	
+	color: #999;
+}
+
+.Footer input.Button.Cancel:hover {
+	color: #111;
+}
+
+/* — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — */
+
+div.Border {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	background: none repeat scroll 0 0 rgba(82, 82, 82, 0.7);
+	padding: 10px;
+}
+
+div.Popup div.Errors ul {
+}
+
+div.Popup div.Messages {
+   text-align: left;
+   position: inherit;
+   top: auto;
+   left: auto;
+   z-index: auto;
+	margin: 10px 0 !important;
+}
+div.Popup div.Messages ul {
+	display: block;
+   border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+* html div.Popup div.Messages {
+  position: inherit;
+  width: auto;
+  top: auto;
+  left: auto;
+  overflow: auto; 
+}
+div.Popup .Info {
+	margin-top: 10px;
+}
+div.Popup .Loading {
+   display: block;
+}
+div.Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+div.Popup {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 5000;
+  text-align: center;
+}
+div.Popup div.Border {
+  margin: 0px auto;
+  text-align: left;
+  position: relative;
+  max-width: 500px;
+}
+div.Popup div.Body {
+  background: #fff;
+}
+div.Popup div.Legal,
+div.Popup .Content form {
+	max-height: 440px;
+	overflow: auto;
+	padding: 10px;
+}
+div.Popup .Loading {
+  text-align: center;
+}
+div.Popup h1,
+div.Popup h2 {
+	font-size:16px;
+	font-weight: normal;
+	margin-bottom: 0;
+	color: #fff;
+	background: #333;
+	padding: 6px 9px 4px;
+	text-transform: lowercase;
+}
+div.Popup a {
+	text-decoration: none;
+	color: #999;
+}
+
+div.Popup a.ForgotPassword {
+	display: block;
+	margin-top: 5px;
+}
+
+div.Popup a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+a.Close {
+	position: absolute;
+	top: 16px;
+	right: 20px;
+	line-height: 1;
+	color: #ccc;
+	cursor: pointer;
+	font-family: arial;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 0;
+	text-decoration: none;
+}
+a.Close:hover {
+	color: #fff !important;
+	text-decoration: none !important;
+}
+div.Popup h3 {
+	font-weight: bold;
+	padding: 0 0 10px;
+}
+div.Popup p {
+	padding: 6px 10px 10px;
+}
+div.Popup div.Legal p {
+	padding: 6px 0 10px;
+}
+div.Popup small {
+	font-size: 11px;
+}
+div.Popup form p {
+	padding: 0;
+}
+body.Profile #Form_Invitation ul li label,
+body.Profile #Form_User ul li label,
+div.Popup form ul li label {
+	color:#000;
+	display:block;
+	font-size:14px;
+	font-weight:bold;
+	margin: 10px 0 0;
+	font-size:12px;
+}
+body.Entry form ul li.Gender label.RadioLabel,
+body.Profile #Form_User ul li.Gender label.RadioLabel,
+div.Popup form ul li.Gender label.RadioLabel {
+	display: inline;
+	padding-right: 20px;
+}
+li.Gender {
+	margin-bottom: 10px;
+}
+body.Profile #Form_User ul li label.RadioLabel,
+body.Profile #Form_User ul li label.CheckBoxLabel,
+div.Popup form ul li label.RadioLabel,
+div.Popup form ul li label.CheckBoxLabel {
+	font-weight: normal;
+}
+div.Profile #Form_User input.Button,
+div.Popup input.Button {
+	margin: 4px 0 2px;
+}
+body.Entry div.Popup p {
+	color: #000;
+}
+div.Popup #Form_User div.Warning,
+#dashboard_profile_picture #Form_User div.Warning {
+	margin: 6px 0;
+}
+div.SignInPopup div.Border {
+	max-width: 280px;
+}
+div.SignInPopup .Content form {
+	padding: 0 10px 10px;
+}
+div.SignInPopup div.Methods {
+	font-size: 11px;
+	color: #555;
+/*	position: absolute;
+	top: 43px;
+	bottom: 10px;
+	left: 290px;
+	right: 10px;
+*/	background: #CFECFF;
+	border-top: 1px solid #abdafb;
+	padding: 10px 6px 6px;
+/*	line-height: 1;*/
+}
+div.SignInPopup div.Methods div.Method {
+	padding: 10px 0 0;
+}
+/* Serious Ajax Error Styles */
+div.AjaxError {
+	white-space: pre;
+	overflow: auto;
+	padding: 10px;
+}
+
+div.Popup .Buttons {
+	margin: 10px 0;
+}
+
+div.Popup .Button {
+	margin: 10px 0;
+}
