@@ -4,7 +4,7 @@ charged up bits release tones
 
 **Author:** tehn
 
-!()[skr-screenshot.png]
+![](skr-screenshot.png)
 
 ## Description
 
