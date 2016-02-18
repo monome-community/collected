@@ -1,0 +1,43 @@
+tml64/128/256 notes
+
+
+MAX6 runtime only compatible
+
+
+v035 (tehn)
+
+added arc-key subpatch which maps arc-key to Z X C V on the keyboard.
+
+
+v034
+
+added momentary/latching record functionality
+
+v032
+
+added vu sensitivity dial in the ui
+increased the playback speed encoder range from 3x to 6x
+added adjustable gain and output channel for each voice
+
+v031
+
+fixed the LED feedback bug on 64/128 - thanks to r1v1era/flyingoctopus/watson
+added midi record functionality
+
+v030
+
+extended to 16 voices [128/256]
+
+fixed encoder 0 bug where leds remain lit post focus change
+fixed encoder 1 bug where press should 0 lfo
+implemented encoder 2 as as playback speed control, press to set to 1x playback
+implemented encoder 3 as channel volume control, default at 40% [256] 80% [64/128], press to return to default after edit
+
+shifted focus/record/playback buttons to bottom of grid (15/14/13 respectively) [256 only]
+
+extended VU meters from 4 units to 12 [256 only]
+
+to-do
+
+add option to erase voice buffer content
+m4l conversion w/ potential tempo sync
