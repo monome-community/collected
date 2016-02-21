@@ -6,8 +6,9 @@
  
 created by: tehn, refactored by: stretta and tenmen 
 
-* tml035 - standalone
-* tml4l034 - max for live port
+* tml035 - standalone for Max 6
+* tml4l034 - Max For Live port for Max 6
+* tml64_refactor - standalone for Max 7
 
 ## discussion
 
