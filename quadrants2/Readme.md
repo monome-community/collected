@@ -5,7 +5,7 @@
 
 a device splitter to access multiple patches simultaneously
 
-!()[app-quad2-screen.png]
+![](app-quad2-screen.png)
 
 allows the user to attach a 128 or 256 and address up to 2 or 4 applications respectively. the device is split into 8x8, 16x8 or 16x16 grids with each area communicating with one application only. this version uses serialosc and does not require the zeroconf externals or bonjour to be installed on windows machines.
 

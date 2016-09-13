@@ -4,7 +4,7 @@ created by: josh g. - josh (a) thoughtlost.org
 
 A Processing-powered MIDI instrument for monome.  Notes bounce across the grid, occasionally changing directions.
 
-!()[app-rebound-screenshot.png]
+![](app-rebound-screenshot.png)
 
 
 

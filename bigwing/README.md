@@ -6,7 +6,7 @@ automatic whole-song beat/segment slicer
 for hands-on remixing with grid and optional arc
 using the Echo Nest analyzer API
 
-!()[app-bigwing_photo_small.jpg]
+![](app-bigwing_screenshot.png)
 
 http://dewb.org
 

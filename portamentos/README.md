@@ -2,7 +2,7 @@
 
 created by: stretta
 
-!()[app-portamentos.png]
+![](app-portamentos.png)
 
 designed for the monome 64 and arc2
 

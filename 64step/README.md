@@ -1,6 +1,6 @@
 #64step
 
-!()[app-64step123sshot_crop.jpg]
+![](app-64step123sshot_crop.jpg)
 
 **written by Peter Segerstrom**
 

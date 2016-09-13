@@ -10,7 +10,7 @@ created by: robb
 * midi output
 * two 256 modes (fullscreen or partial with tetromino preview)
 
-![](tetris_midi.png)
+![](tetris.png)
 
 
 ## Controls

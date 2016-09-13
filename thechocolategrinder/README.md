@@ -1,8 +1,8 @@
 #The Chocolate Grinder
 
-created by: (Rodrigo Constanzo)[http://www.rodrigoconstanzo.com]
+created by: [Rodrigo Constanzo](http://www.rodrigoconstanzo.com)
 
-!()[app-chocolate.png]
+![](app-chocolate.png)
 
 http://vimeo.com/36277452
 

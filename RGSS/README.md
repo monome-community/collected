@@ -4,7 +4,7 @@ created by: Astronaut
 
 A quick and easy method for creating rhythms and melodies using the monome, sound can be generated using the internal synthesiser or using the generated midi output data.
 
-!()[app-rgss_screenshot.png]
+![](app-rgss_screenshot.png)
 
 
 Sequencer cycles from top to bottom at the selected BPM, with pitch increasing from left to right.

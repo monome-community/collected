@@ -4,7 +4,7 @@ created by: t.gill
 
 a simple tilt to midi-CC converter
 
-!()[app-angles-screencap.png]
+![](app-angles-screencap.png)
 
 captures analog output of up to 3-dimensional tilt sensors. each sensor can be turned on/off, have it's range inverted, and route the value to a midi CC of your choice.
 
