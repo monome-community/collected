@@ -6,7 +6,7 @@ ALTERNATE VERSIONS
 
 mlr is a live sample-cutting platform.
 
-!()[app-mlr227sshot_crop.jpg]
+![](app-mlr227sshot_crop.jpg)
 
 
 sound files are mapped across each row of the hardware interface where playback position is indicated by a lit pad.
@@ -19,8 +19,8 @@ pattern recording module allows for recording and playback of key sequences.
 a live input module allows clips to be captured in real time and immediately mapped to a row.
 complete feature list and documentation included with the download.
 
-(videos of mlr in use)[http://vimeo.com/search?q=monome+AND+mlr]
-(tutorial to sync with logic)[http://vimeo.com/2045547]
+* [videos of mlr in use](http://vimeo.com/search?q=monome+AND+mlr)
+* [tutorial to sync with logic](http://vimeo.com/2045547)
 
 **other versions**
 * v2.6.2AUX - adds support for auxiliary 64 w/tilt & fx, Max 7

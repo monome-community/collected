@@ -5,7 +5,7 @@ created by: dataplex
 **frost is an max/msp/jitter patch that's great for making harmonious soundscapes on the fly.**
 
 
-!()[app-frosty_.png]
+![](app-frosty_.png)
 
 **from the documentation**
 

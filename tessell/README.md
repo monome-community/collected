@@ -1,8 +1,8 @@
 # tessell
 
-!()[app-tessell-tessel_15-47-56.png]
+![](app-tessell-tessel_15-47-56.png)
 
-created by: (sleepersecond)[https://sites.google.com/site/sleepersecond]
+created by: [sleepersecond](https://sites.google.com/site/sleepersecond)
 
 tessell is a sampling instrument. designed to work with complete songs instead of short samples. think of it as a virtual cassette tape player with standard functions such as play. stop. and loop.
 

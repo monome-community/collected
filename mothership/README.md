@@ -1,12 +1,12 @@
 #M • O • T • H • E • R • S • H • I • P
 
-created by: (Declan Murphy)[http://arc-monome.tumblr.com]
+created by: [Declan Murphy](http://arc-monome.tumblr.com)
 
-!()[app-mothership-phantom_of_the_chakras.png]
+![](app_mothership-phantom_of_the_chakras.png)
 
 http://vimeo.com/41663708
 
-!()[app-mothership-mothershiip.png]
+![](app_mothership-mothershiip.png)
 
 Visual Musical Playground for 40h (64) + Arc2.
 
@@ -51,4 +51,4 @@ on the grid.
 Encoder 1 controls the Master Volume for the three MLR groups.
 
 
-ALSO (grab the samples)[http://www.mediafire.com/?thuua5q5wdzn4o8] !
+ALSO [grab the samples](http://www.mediafire.com/?thuua5q5wdzn4o8) !

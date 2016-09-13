@@ -4,7 +4,7 @@ created by: MonsieurBon
 
 This is a simple arc-to-midi knob converter/quadrulpler.
 
-!()[app-quadknobs.png]
+![](app-quadknobs.png)
 
 
 Using an arc 2 or 4, you can quadruple the available knobs and output that data to MIDI. Turning the encoder moves the upper right indicator. Push the encoder to move to controlling the next quadrant. The active pointer will be brighter.

@@ -1,12 +1,12 @@
 #Monolase
 
-created by: (Rodrigo Constanzo)[http://www.rodrigoconstanzo.com]
-based on Cocolase by (ciat-lonbarde)[http://www.ciat-lonbarde.net]
+created by: [Rodrigo Constanzo](http://www.rodrigoconstanzo.com)
+based on Cocolase by [ciat-lonbarde](http://www.ciat-lonbarde.net)
 
 
 8-bit modulated delay/sampler based on the ciat-lonbarde Cocolase.
 
-!()[monolase.jpg]
+![](monolase.jpg)
 
 **Features:**
 

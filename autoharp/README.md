@@ -1,10 +1,10 @@
 # autoharp
 
-created by: (Meng Qi)[http://mengqimusic.com]
+created by: [Meng Qi](http://mengqimusic.com)
 
 4 track autoharp with physical speed/resistance system
 
-!()[app-ah.png]
+![](app-ah.png)
 
 http://vimeo.com/44917498
 
@@ -20,6 +20,7 @@ thanks to member GreaterThanZero for his physical speed/resistance code "throw" 
 for full version max users, you can edit the message objects in the subpatch "pushforce.maxpat" to get the desired acceleration amount for each button
 
 **tutorials**
+
 1 - edit the chords
 2 - select midi output device and midi channel
 3 - adjust midi note velocity, duration and resistance to your liking

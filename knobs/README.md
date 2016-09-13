@@ -4,7 +4,7 @@ created by: MonsieurBon.
 
 A simple arc-to-midi knob converter/doubler.
 
-!()[app-knobs.png]
+![](app-knobs.png)
 
 Using an arc 2 or 4, you can double the available knobs and output that data to MIDI. Turning the encoder moves an indicator on the left side. Pushing and holding and turning the encoder moves a double indicator on the right side. You can adjust the turning speed multiplier for faster knob-doodling.
 

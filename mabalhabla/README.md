@@ -2,7 +2,7 @@
 
 created by: stretta
 
-!()[app-mabalhabla.png}
+![](app-mabalhabla.png)
 
 
 A configurable tonal mapping grid. Set intervals in vertical and horizontal direction for pattern-style chords.
